@@ -1,0 +1,875 @@
+{
+  "version": 1,
+  "date": "2026-10-13",
+  "basis": "三个完整文件的人工选词、语境释义与定位；搭配建议不均为逐字引文",
+  "entries": [
+    {
+      "term": "春种",
+      "domain": "农事与研究",
+      "meaning": "春季的播种活动",
+      "register": "朴素名词带出农时和人力需求",
+      "collocations": [
+        "安排春种",
+        "赶上春种"
+      ],
+      "avoid": "不要用来笼统代称所有农活",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 15
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "夏收",
+      "domain": "农事与研究",
+      "meaning": "夏季收获活动",
+      "register": "可连接忙碌、节期、劳作与休息",
+      "collocations": [
+        "准备夏收",
+        "夏收时节"
+      ],
+      "avoid": "作物与地区时序须另核对",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 142
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "试验田",
+      "domain": "农事与研究",
+      "meaning": "承担试验用途的田地",
+      "register": "写研究活动的具体空间",
+      "collocations": [
+        "处理试验田",
+        "试验田里的野草"
+      ],
+      "avoid": "不是普通农田的华丽别称",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_beg",
+          "readableLine": 74
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "草料",
+      "domain": "农事与研究",
+      "meaning": "饲喂牲畜的草类饲料",
+      "register": "偏劳动口语，关注实际喂养",
+      "collocations": [
+        "喂草料",
+        "提供草料"
+      ],
+      "avoid": "不要混作所有动物的通用食物",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_beg",
+          "readableLine": 70
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "隔离带",
+      "domain": "农事与研究",
+      "meaning": "用于阻断蔓延的分隔区域",
+      "register": "在本场用于处理林边火势",
+      "collocations": [
+        "清出隔离带"
+      ],
+      "avoid": "真实应急操作须查专业依据",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_beg",
+          "readableLine": 195
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "亩产",
+      "domain": "农事与研究",
+      "meaning": "以亩为面积单位计算的产量",
+      "register": "与区域、季节、处理条件一同说明",
+      "collocations": [
+        "亩产数据",
+        "比较亩产"
+      ],
+      "avoid": "不同单位不能直接比较",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 105
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "存活率",
+      "domain": "农事与研究",
+      "meaning": "特定范围内存活个体的比例",
+      "register": "暴露试验效果和限制",
+      "collocations": [
+        "存活率下跌",
+        "记录存活率"
+      ],
+      "avoid": "分母、时间和对象需明确",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 106
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "耐受性",
+      "domain": "农事与研究",
+      "meaning": "对象对某种不利条件的承受能力",
+      "register": "可表现长期研究中的突破",
+      "collocations": [
+        "耐受性有所突破"
+      ],
+      "avoid": "别与免疫、完全抵抗混用",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 120
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "变种",
+      "domain": "农事与研究",
+      "meaning": "相对原有类型有所变化的类型",
+      "register": "让成果来自具体发现",
+      "collocations": [
+        "发现变种"
+      ],
+      "avoid": "词语不自动说明遗传机制",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 120
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "推广应用",
+      "domain": "农事与研究",
+      "meaning": "把成果用于更广范围的实践",
+      "register": "区分试验有效与实际可用",
+      "collocations": [
+        "推广应用的可能"
+      ],
+      "avoid": "不要把局部结果直接写成普遍成功",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 115
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "授业",
+      "domain": "礼辞与组织",
+      "meaning": "教授学业或技艺",
+      "register": "较书面，与教师身份相关",
+      "collocations": [
+        "授业天师"
+      ],
+      "avoid": "不是普通聊天的同义词",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_beg",
+          "readableLine": 16
+        },
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 186
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "分内之职",
+      "domain": "礼辞与组织",
+      "meaning": "职责范围内应做的事",
+      "register": "可承接感谢，也可划定责任",
+      "collocations": [
+        "这是分内之职"
+      ],
+      "avoid": "语气须靠关系判断，不能自动视为谦虚",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_beg",
+          "readableLine": 161
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "述职",
+      "domain": "礼辞与组织",
+      "meaning": "报告履职情况",
+      "register": "指向上下级与行政程序",
+      "collocations": [
+        "回京述职"
+      ],
+      "avoid": "与随意汇报、复命的侧重点不同",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_beg",
+          "readableLine": 176
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "体恤",
+      "domain": "礼辞与组织",
+      "meaning": "体察并关照处境",
+      "register": "可真诚，也可作为行政理由",
+      "collocations": [
+        "体恤百姓"
+      ],
+      "avoid": "不能仅凭此词认定行为正当",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_beg",
+          "readableLine": 148
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "觐见",
+      "domain": "礼辞与组织",
+      "meaning": "进见君主等具有特定尊位者",
+      "register": "庄重且有制度条件",
+      "collocations": [
+        "觐见女皇"
+      ],
+      "avoid": "普通拜访不随意套用",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 14
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "管辖",
+      "domain": "礼辞与组织",
+      "meaning": "权责覆盖某区域或事务",
+      "register": "表现机构边界与归属",
+      "collocations": [
+        "归某机构管辖"
+      ],
+      "avoid": "不是私人拥有的同义词",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 8
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "清剿",
+      "domain": "礼辞与组织",
+      "meaning": "带军事或武装意味的搜剿清除",
+      "register": "官方行动语言，可显政治定性",
+      "collocations": [
+        "清剿残党"
+      ],
+      "avoid": "词的定性不等于旁白应无条件背书",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 34
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "结案",
+      "domain": "礼辞与组织",
+      "meaning": "将案件按程序结束",
+      "register": "可带程序确认或封闭追问",
+      "collocations": [
+        "已结案",
+        "结案的事情"
+      ],
+      "avoid": "结案不自动等于真相穷尽",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 19
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "复命",
+      "domain": "礼辞与组织",
+      "meaning": "任务后向授权者报告",
+      "register": "强调受命与回报的关系",
+      "collocations": [
+        "向教宗复命"
+      ],
+      "avoid": "不是任何工作总结都适合用",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 47
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "遗愿",
+      "domain": "礼辞与组织",
+      "meaning": "死者生前未完成或希望身后完成的愿望",
+      "register": "较情感性，可能关联受托事项",
+      "collocations": [
+        "达成遗愿"
+      ],
+      "avoid": "与法律遗嘱不可直接互换",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 66
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "合约",
+      "domain": "礼辞与组织",
+      "meaning": "约定各方权利义务的契约",
+      "register": "约束人物承诺的范围",
+      "collocations": [
+        "合约的一部分",
+        "履行合约"
+      ],
+      "avoid": "不能凭名称虚构现实效力",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 69
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "排演",
+      "domain": "音乐与艺术",
+      "meaning": "为正式表演进行练习和安排",
+      "register": "体现演出准备与时间压力",
+      "collocations": [
+        "参与排演"
+      ],
+      "avoid": "与正式演奏的阶段不同",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 29
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "调音师",
+      "domain": "音乐与艺术",
+      "meaning": "承担调音工作的角色称谓",
+      "register": "可连接职业与个人身份",
+      "collocations": [
+        "乐团调音师"
+      ],
+      "avoid": "源作岗位兼有虚构设定，勿套作现实职务说明",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 32
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "乐章",
+      "domain": "音乐与艺术",
+      "meaning": "音乐作品的篇章性单位或该作品称谓",
+      "register": "可以承载演出制度与象征",
+      "collocations": [
+        "奏响乐章",
+        "乐章副本"
+      ],
+      "avoid": "源作专名性质另查，不随便把所有旋律叫乐章",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 25
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "音符",
+      "domain": "音乐与艺术",
+      "meaning": "表示乐音的符号或叙述中的音乐单位",
+      "register": "与排列、演奏及理解相连",
+      "collocations": [
+        "组织音符",
+        "化作音符"
+      ],
+      "avoid": "音符正确不等于所有演奏要素正确",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 102
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "旋律",
+      "domain": "音乐与艺术",
+      "meaning": "有组织的音高时间序列在叙述中的称谓",
+      "register": "可被记忆、识别、演奏",
+      "collocations": [
+        "演奏旋律",
+        "辨认旋律"
+      ],
+      "avoid": "不得把法术作用当作现实音乐效果",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 99
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "共鸣",
+      "domain": "音乐与艺术",
+      "meaning": "同频响应或引申的感受呼应",
+      "register": "物理、艺术、心理用法须辨明",
+      "collocations": [
+        "情感共鸣"
+      ],
+      "avoid": "不得将比喻直接当机制证明",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 248
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "共情",
+      "domain": "心理与认识",
+      "meaning": "理解或体验他人的情绪处境",
+      "register": "可表现能力差异和理解尝试",
+      "collocations": [
+        "无法共情",
+        "尝试共情"
+      ],
+      "avoid": "不等于赞同、同情或正确判断",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 122
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "隔阂",
+      "domain": "心理与认识",
+      "meaning": "人与人之间难以接近或理解的阻碍",
+      "register": "可连接经历、身份和沟通",
+      "collocations": [
+        "隔阂存在",
+        "消除隔阂"
+      ],
+      "avoid": "不要只靠一次坦白自动消除",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 112
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "迟疑",
+      "domain": "心理与认识",
+      "meaning": "决定或行动前的停留不决",
+      "register": "可表现原本果断者的变化",
+      "collocations": [
+        "迟疑片刻"
+      ],
+      "avoid": "不是无能的标签，需知道犹疑对象",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 93
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "动摇",
+      "domain": "心理与认识",
+      "meaning": "原有信念或决心失去稳固",
+      "register": "比单纯不确定更有先前基础",
+      "collocations": [
+        "感到动摇"
+      ],
+      "avoid": "尚无既有立场时未必适用",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 110
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "克制",
+      "domain": "心理与认识",
+      "meaning": "约束表达、冲动或行动",
+      "register": "表现内外张力，也可否定其有效性",
+      "collocations": [
+        "克制念头",
+        "克制情绪"
+      ],
+      "avoid": "不默认克制者没有情绪",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 255
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "嘲弄",
+      "domain": "心理与认识",
+      "meaning": "以戏谑等方式贬低或刺伤",
+      "register": "比玩笑更突出贬抑与敌意",
+      "collocations": [
+        "嘲弄对方"
+      ],
+      "avoid": "与友好打趣不要随意互换",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 134
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "自恋自伤",
+      "domain": "心理与认识",
+      "meaning": "把关注反复放回自身并伤感的指责",
+      "register": "原场为攻击性评价",
+      "collocations": [
+        "指责自恋自伤"
+      ],
+      "avoid": "是人物指控，不作临床诊断",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 183
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "自暴自弃",
+      "domain": "心理与认识",
+      "meaning": "放弃自我改善并贬弃自身",
+      "register": "强评价，适合有关系压力的指责",
+      "collocations": [
+        "自暴自弃的行为"
+      ],
+      "avoid": "勿把一时难过直接等同于此",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 183
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "悔恨",
+      "domain": "心理与认识",
+      "meaning": "针对自身过往行为的后悔与痛苦",
+      "register": "较遗憾更强调责任感",
+      "collocations": [
+        "痛苦与悔恨"
+      ],
+      "avoid": "责任归属需符合人物认知",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 260
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "骄矜不驯",
+      "domain": "书面与评价",
+      "meaning": "自负且难受约束的性格评价",
+      "register": "在武侠故事或文雅评价中成立",
+      "collocations": [
+        "骄矜不驯的侠客"
+      ],
+      "avoid": "强标签须有行动依据",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 44
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "浸淫",
+      "domain": "书面与评价",
+      "meaning": "长期深入某领域",
+      "register": "书面且重持续投入",
+      "collocations": [
+        "浸淫武道"
+      ],
+      "avoid": "不一定含贬义，搭配对象要稳",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 44
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "差之毫厘",
+      "domain": "书面与评价",
+      "meaning": "差距极小",
+      "register": "可表现逼近目标而不能抵达",
+      "collocations": [
+        "差之毫厘"
+      ],
+      "avoid": "不能与巨大差距场景硬配",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 44
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "返璞归真",
+      "domain": "书面与评价",
+      "meaning": "回到朴素本真状态的理想",
+      "register": "可作为作品趣味或人物观念",
+      "collocations": [
+        "喜欢返璞归真的故事"
+      ],
+      "avoid": "不能视作技能自动增长的事实",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 51
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "造化弄人",
+      "domain": "书面与评价",
+      "meaning": "将遭际归于命运的戏弄",
+      "register": "带事后叙述和感叹",
+      "collocations": [
+        "造化弄人的磨难"
+      ],
+      "avoid": "普通失误不宜都拔高成命运",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 45
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "戕害",
+      "domain": "衰败与损伤",
+      "meaning": "伤害残害",
+      "register": "书面且强烈，突出加害",
+      "collocations": [
+        "戕害受难者"
+      ],
+      "avoid": "不能只是普通妨碍或轻微不便",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 191
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "凋敝",
+      "domain": "衰败与损伤",
+      "meaning": "生计、地域或社会状态衰败困顿",
+      "register": "从领地与民生的衰退观察",
+      "collocations": [
+        "领地凋敝"
+      ],
+      "avoid": "不是一件物品破损的同义词",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 192
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "玷污",
+      "domain": "衰败与损伤",
+      "meaning": "使名誉价值等被认为受损",
+      "register": "有洁污价值框架，常见强指责",
+      "collocations": [
+        "玷污研究"
+      ],
+      "avoid": "需辨别人物偏见，不替作者默认",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 169
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "湮灭",
+      "domain": "衰败与损伤",
+      "meaning": "消灭至不再留存的强烈表达",
+      "register": "本场涉及毁除旧地块",
+      "collocations": [
+        "负责湮灭"
+      ],
+      "avoid": "不能代替普通拆除且抹去程度区别",
+      "evidence": [
+        {
+          "source": "activities/act29side/level_act29side_st02",
+          "readableLine": 9
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "清甜软糯",
+      "domain": "感官与环境",
+      "meaning": "味觉清甜与口感柔软黏糯的组合",
+      "register": "用于具体食物感官",
+      "collocations": [
+        "清甜软糯的莲藕"
+      ],
+      "avoid": "烹饪状态与对象须相容",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 158
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "无味寡淡",
+      "domain": "感官与环境",
+      "meaning": "味道不足或缺少层次的评价",
+      "register": "可带主观不满",
+      "collocations": [
+        "无味寡淡的粥"
+      ],
+      "avoid": "不代表所有清淡食物都难吃",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_beg",
+          "readableLine": 170
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "徐徐",
+      "domain": "感官与环境",
+      "meaning": "缓慢舒展地进行",
+      "register": "用于风与动作的缓节奏",
+      "collocations": [
+        "晚风徐徐"
+      ],
+      "avoid": "急促猛烈场景不作通用美化",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 234
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "芬芳",
+      "domain": "感官与环境",
+      "meaning": "令人愉悦的香气或相关评价",
+      "register": "较清香抒情，须有气味来源",
+      "collocations": [
+        "芬芳的草地"
+      ],
+      "avoid": "不替代所有泥土或腐败气味",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 236
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    },
+    {
+      "term": "徘徊",
+      "domain": "感官与环境",
+      "meaning": "在一处往复或迟迟不离",
+      "register": "动作中可显犹豫",
+      "collocations": [
+        "人影徘徊"
+      ],
+      "avoid": "与偶然经过不同",
+      "evidence": [
+        {
+          "source": "activities/act31side/level_act31side_01_end",
+          "readableLine": 199
+        }
+      ],
+      "scope": "语境释义与搭配建议；非全库频率或现实专业定义"
+    }
+  ]
+}

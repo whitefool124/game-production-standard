@@ -1,0 +1,20 @@
+const fs=require('fs'),path=require('path'),assert=require('assert');
+const dir=path.join(require('./corpus-root.cjs').resolveCorpusRoot(), 'analysis');
+const r=JSON.parse(fs.readFileSync(path.join(dir,'dialogue-common-usage.json'),'utf8'));
+const c=JSON.parse(fs.readFileSync(path.join(dir,'dialogue-discovered-candidates.json'),'utf8'));
+const keys=['all','mainline','southbound','workshop','broadcast'];
+const maps=Object.fromEntries(keys.map(k=>[k,new Map(r.groups[k].allCharacters.map(x=>[x.text,x]))]));
+const rows=fs.readFileSync(path.join(dir,'dialogue-recurrent-ngrams.tsv'),'utf8').trim().split('\n');const cols=rows.shift().split('\t');
+const grams=new Map(rows.map(l=>{const a=l.split('\t');return[a[0],Object.fromEntries(cols.map((col,i)=>[col,i?Number(a[i]):a[i]]))];}));
+assert.equal(c.totalRecurrent,grams.size);
+const han=r.groups.all.allCharacters.filter(x=>/^\p{Script=Han}$/u.test(x.text));
+const totalHan=han.reduce((s,x)=>s+x.count,0),top=han.slice(0,300),coverage=100*top.reduce((s,x)=>s+x.count,0)/totalHan;
+const fmt=x=>Number(x||0).toFixed(2);
+let md='# 开放范围的常用字词研究\n\n原文全部单字类型'+c.totalCharacterTypes+'，其中汉字类型'+han.length+'。原文前300个高频汉字覆盖具名对白汉字出现量的'+coverage.toFixed(2)+'%。以下没有预先限定要比较哪几个字。每万字分母仍为文字/数字字符6074018，不是每万词。三篇原创只有1542/1177/1003字，缺词及比率不是显著性或质量结论。\n\n二至四字串扫描4214464种，其中原文出现至少20次的65829种全部导出；按长度分别取前500，形成1500个自动候选。它们是连续字串，不保证是词，边界不跨标点/对白记录。频率门槛只控制导出范围。三篇计数查完整内存表，不用截断后的排行榜推断缺失。\n\n## 前300高频汉字逐字对照\n\n|字|全量|主线|南行前夜|工务室|广播|广播次数|\n|---|---:|---:|---:|---:|---:|---:|\n';
+for(const x of top)md+='|'+x.text+'|'+keys.map(k=>fmt(maps[k].get(x.text)?.per10000)).join('|')+'|'+(maps.broadcast.get(x.text)?.count||0)+'|\n';
+md+='\n## 一组可人工辨认的表达对照\n\n从自动候选及完整重复字串表回查实际表达。未入至少20次导出范围记NA，不假称原文零次。字符串存在不保证每次用法相同，复合词内的匹配仍需复核。\n\n|表达|全量|主线|南行前夜|工务室|广播|广播次数|\n|---|---:|---:|---:|---:|---:|---:|\n';
+const selected='清楚 讲清楚 说清楚 想清楚 看清楚 听清楚 看着 拿着 放在 站在 坐在 说完 听到 看到 别急 别再 别把 还要 都能 一个人 一个 一句话 一件 一根 有人 别人 时候 的时候 那时候 这种 那种 也就是说 我不知道 我还以为 怎么回事 什么时候 不一定 不可能 来不及 没想到 反正 总得 好歹 宁愿 难得 恰好 偏偏 忍不住 用不着 舍不得 说到底 难怪 怪不得 真是 才能 至于 尽量 却是 而是 何必 未曾 不如 宁可 哪怕 毕竟'.split(' ');
+for(const t of selected){const row=grams.get(t);md+='|'+t+'|'+keys.map(k=>row?fmt(row[k+'_per10000']):'NA').join('|')+'|'+(row?.broadcast_count??'NA')+'|\n';}
+md+='\n## 候选与完整表\n\n- dialogue-all-characters.tsv：4583种原文字母/数字/汉字等的完整比较。\n- dialogue-recurrent-ngrams.tsv：65829种重复字串完整比较。\n- dialogue-discovered-candidates.json：按二/三/四字长度分别取前500的候选。\n- dialogue-common-usage-report.md：扩充为301项人工可辨认常用字/固定表达的分类表。\n\n这些文件包括主线、Logos、可露希尔对照。原创广播员没有原作同名角色，不自动给他套其他人的比例。结构统计不推进327/2040精读。\n';
+fs.writeFileSync(path.join(dir,'dialogue-open-vocabulary-report.md'),md);
+console.log(JSON.stringify({hanTypes:han.length,top300HanCoverage:coverage,selected:Object.fromEntries(selected.filter(t=>grams.has(t)).map(t=>[t,Object.fromEntries(keys.map(k=>[k,grams.get(t)[k+'_per10000']]))]))},null,2));

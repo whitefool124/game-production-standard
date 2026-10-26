@@ -1,0 +1,309 @@
+{
+  "note": "保留兼容路径；用户评价见对话及具体记录，不由文件名final推定合格。外勤名单仅有限好一点；其后哲学同声与留白被否定。",
+  "files": [
+    {
+      "path": "references/adaptation-cases.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/argument-ellipsis-pass.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/argument-particles-pass.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/argument-voices-revision.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/bridge-north-character-pass.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/bridge-north-final.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/bridge-north-private-review.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/bridge-north-sample.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/bridge-north-voices.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/character-and-world.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/close-reading.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/common-expression-contexts.json",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/common-usage-findings.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/common-usage-private-pass.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/consolidation-review.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/corpus.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/dialogue-craft.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/dialogue-editing-pass.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/discourse-study-tests.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/discourse-study.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/extended-argument.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/fourth-sample.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/full-reading.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/human-voice-checks.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/human-voice-practice.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/integrated-workflow.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/knowledge-notes.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/last-broadcast-private-review.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/last-broadcast-sample.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/length-audit-findings.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/lexical-texture.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/lexicon-usage.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/lexicon.json",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/naturalness.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/open-vocabulary-findings.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/original-sample.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/particles-and-habits.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/photo-consolidated-final.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/photo-consolidated-v1.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/photo-letter-sample.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/photo-position-review.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/photo-texture-final.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/photo-texture-review.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/research-index.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/revised-sample.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/rhythm-and-syntax.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/scene-design.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/sentence-craft.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/short-length-findings.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/southbound-dialogue-sample.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/station-confrontation.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/study-status.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/theatre-intermission-private-review.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/theatre-intermission-sample.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/third-person-craft.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/third-person-station.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/third-sample.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/voice-iteration-draft-a.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/voice-iteration-draft-b.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/voice-iteration-draft-c.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/voice-iteration-final.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/voice-iteration-review.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/workshop-dialogue-sample.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/workshop-sentence-pass.md",
+      "kind": "historical-writing-not-automatically-endorsed"
+    },
+    {
+      "path": "references/writing-iteration.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/trials-2026-10-14/chess-v1.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/trials-2026-10-14/chess-v2.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/trials-2026-10-14/chess-v3.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/trials-2026-10-14/combat-v1.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/trials-2026-10-14/combat-v2.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/trials-2026-10-14/combat-v3.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/trials-2026-10-14/lexical-review.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/trials-2026-10-14/review.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/trials-2026-10-14/theatre-v1.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/trials-2026-10-14/theatre-v2.md",
+      "kind": "legacy-reference-or-evidence"
+    },
+    {
+      "path": "references/trials-2026-10-14/theatre-v3.md",
+      "kind": "legacy-reference-or-evidence"
+    }
+  ]
+}

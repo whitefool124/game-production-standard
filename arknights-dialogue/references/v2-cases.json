@@ -1,0 +1,87 @@
+{
+  "cases": [
+    {
+      "id": "familiar-care",
+      "tasks": [
+        "日常",
+        "关心",
+        "喜剧",
+        "熟人"
+      ],
+      "source": "activities/act7d5/level_act7d5_st03",
+      "start": 115,
+      "end": 140,
+      "mechanism": "伊桑先敷衍，再被迫说明真实观察；看出烦恼不代表获得倾诉。劝慰后暴露自己的应对限度，又转回确实想吃肉。",
+      "lossWhenFlattened": "只剩发现烦恼并安慰，失去双方认真和不认真的错位。",
+      "boundary": "不把所有人写成伊桑；普通关心不必绕开，不复制口头禅。",
+      "sourceSha256": "9478f752cda40ea14475af690aec754a934fa77992d0d8da0d4361464b4a4eaa",
+      "context": "首次接触读完整文件；本卡为已读场景的专项范围。"
+    },
+    {
+      "id": "hurt-pride",
+      "tasks": [
+        "争执",
+        "人物声音",
+        "语气"
+      ],
+      "source": "activities/act18side/level_act18side_01_beg",
+      "start": 44,
+      "end": 80,
+      "mechanism": "批评先有速度与配合对象；黑键更在意个人经历被断定，礼貌质疑转为重复受辱短语，白垩则寻找重试机会。",
+      "lossWhenFlattened": "生气与劝道歉的摘要抹平谁听进了什么。",
+      "boundary": "学的是关注偏移，不是让所有人愤怒反问；角色判断不自动正确。",
+      "sourceSha256": "86996e96d8064aea176da0fe22399c1f1094dc03893e0d0bc88494374572d612",
+      "context": "首次接触读完整文件；本卡为已读场景的专项范围。"
+    },
+    {
+      "id": "farewell-burden",
+      "tasks": [
+        "长自述",
+        "告别",
+        "高潮"
+      ],
+      "source": "activities/act33side/level_act33side_09_end",
+      "start": 43,
+      "end": 76,
+      "mechanism": "传承、期盼与亏欠并存；陪伴的重复逐次延长本应存在的成长时间。孩子想救大人的回应不等于充分理解使命。",
+      "lossWhenFlattened": "交代使命、答应、感谢的路由抹掉意愿与认知不对称。",
+      "boundary": "不将每次高潮变成牺牲遗物；坦白歉意有作用，不一律藏起来。",
+      "sourceSha256": "4ac9e9422f211c2672a62913a3ba1dee8331eab7968e8e433f41073501b8cbae",
+      "context": "首次接触读完整文件；本卡为已读场景的专项范围。"
+    },
+    {
+      "id": "inheritance-question",
+      "tasks": [
+        "思辨",
+        "哲学",
+        "身份"
+      ],
+      "source": "Obt/main/level_main_13-04_beg",
+      "start": 55,
+      "end": 88,
+      "mechanism": "亲昵与身份责任同场变化；骨哨调律和吻先建立关系，年轻者质疑束缚，母亲交付责任并未消除分歧。",
+      "lossWhenFlattened": "导师授道、年轻人理解会取消质疑与继承同时发生的张力。",
+      "boundary": "庄重用词依赖传承语境，不让普通人全说王庭语言。",
+      "sourceSha256": "c0c1ff2724700039899a16667d5d6ed82a19c9fa70f8aaa8cda316d2e883adbf",
+      "context": "首次接触读完整文件；本卡为已读场景的专项范围。"
+    },
+    {
+      "id": "name-and-refusal",
+      "tasks": [
+        "第三人称",
+        "心理",
+        "救援",
+        "留白"
+      ],
+      "source": "Obt/main/level_main_14-02_beg",
+      "mechanism": "先叫名字，拒绝的对象稍后才澄清；身体变化、人物悲伤和被宽慰并非同一件事，伸手动作延续。",
+      "lossWhenFlattened": "说明获救与感谢会取代认识正在变化的过程。",
+      "boundary": "法术与症状只属于原作此段，不迁移成现实医学判断。",
+      "start": 259,
+      "end": 293,
+      "sourceSha256": "1835bf0853a3bf8d60e2a7728cd26bc941741850fe61b487fb983d89d9b97cc5",
+      "context": "首次接触读完整文件；本卡为已读场景的专项范围。"
+    }
+  ],
+  "status": "5个人工上下文索引；非全库风格分类器；本轮回读不增加精读账本"
+}

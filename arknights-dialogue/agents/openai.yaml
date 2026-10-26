@@ -1,0 +1,4 @@
+interface:
+  display_name: "方舟语料 · 原创游戏对白"
+  short_description: "结合方舟原文研读，按人物经历、关系、背景和场景张力写丰富而自然的原创对白"
+  default_prompt: "使用 $arknights-dialogue，参考匹配的完整场景，按我的人物、关系和世界观写有张力的原创对白，保留角色差异与自然节奏。"

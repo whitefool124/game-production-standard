@@ -1,13 +1,13 @@
 ---
 name: game-production-standard
-description: 制作、修改或审阅游戏界面、功能文案、程序与验收时执行图形实用主义规范，约束真实布局、克制文字、视觉设计依据与交付证据；游戏对白强制路由 arknights-dialogue。
+description: 游戏制作、改造与审阅的执行规范，覆盖正式界面设计、功能文案、音效选材与运行验收、交互动效和演出；游戏对白使用 arknights-dialogue。
 metadata:
-  version: "1.0"
+  version: "1.1"
 ---
 
 # 游戏制作规范
 
-按 [正式规范](references/game-production-standard.md) 执行当前任务相关条目。规范包含 22 条要求及对应禁止事项、正确做法、检查标准；无需为局部修改加载无关专项技能或开展整库重构。
+按 [正式规范](references/game-production-standard.md) 执行当前任务相关条目。按改动范围选用对应章节。项目已定的引擎、素材、输入和交付规则优先，局部修改只读相关专项。
 
 ## 执行要点
 
@@ -21,7 +21,9 @@ metadata:
 
 ## 按需协作
 
-界面采用 `game-ui-design`、`game-ui-ux` 和项目引擎 UI 技能；设计技能路径可选 `impeccable`、`ui-design-crafter`、`ui-ux-pro-max` 等适用技能。原生像素网格、平台输入范围和引擎版本按项目保留，不照搬网页尺寸。
+- **正式界面**按 UI-07、UI-08。建立或改造视觉方向时，技能路径优先用 `frontend-design` 明确项目视觉语言，再按需用 `game-ui-design` 或引擎 UI 技能落实。生图参考仍是有效路径，局部修复可沿用有效设计。
+- **音效**按 AUD-01 至 AUD-03。寻找现成音效时优先用 `sound` 做 Freesound 检索与候选下载。接入及混音按需用 `game-sound-design` 或 `audio-design`。服从项目对真实录音、现成电子音和许可的要求。
+- **交互动效**按 MOT-01、MOT-02。参考 Emil Kowalski 和 Jakub Krehel 的交互方法，原生游戏用项目现有实现。**PV、开场与动态图形**按 MOT-03，使用项目演出技能，浏览器独立动效可用 `bang-motion`。
 
 `arknights-dialogue` 为对白任务的独立依赖，本包不含其原作语料。使用前通过当前技能目录找到并读取该技能；缺失时明确报告依赖缺失，不伪称已使用或编造语料来源，并继续可独立完成的工作。其他设计技能按所选路径提供，不要求同时安装全部技能。
 

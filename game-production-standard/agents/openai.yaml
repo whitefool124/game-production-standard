@@ -1,4 +1,4 @@
 interface:
   display_name: "游戏制作规范"
-  short_description: "以图形实用主义规范游戏界面、文案、程序及检查，拒绝伪布局与临时页面冒充正式交付"
-  default_prompt: "使用 $game-production-standard，按图形实用主义与克制文字规范完成当前游戏任务，并给出相称的验收证据。"
+  short_description: "规范游戏界面、文案、音效选材、交互动效和运行验收，按项目与改动范围执行"
+  default_prompt: "使用 $game-production-standard，应用当前任务涉及的界面、文案、音效或动效条目，并给出相称的验收证据。"

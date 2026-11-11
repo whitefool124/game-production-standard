@@ -4,7 +4,7 @@
 
 [技能入口](game-production-standard/SKILL.md)
 
-[完整制作规范 v1.1](game-production-standard/references/game-production-standard.md)
+[完整制作规范 v1.2](game-production-standard/references/game-production-standard.md)
 
 [明日方舟对白技能 2.1.0](arknights-dialogue/SKILL.md)（本地源版本日期：2026-10-23）
 
@@ -32,6 +32,8 @@
 6. 状态与反馈来自真实数据，检查证据对应实际版本和环境。
 7. 所有游戏对白必须采用独立的 `arknights-dialogue` 技能。
 8. 前端视觉方向基于真实内容与现有设计系统。音效保留来源、许可和运行映射。动效按使用频率、可打断性与场景需要设计。
+9. 先做通代表流程再批量扩展，关键数据检查写入、回执与读回，资产替换核对实际引用和运行表现。
+10. 复审对齐版本、页面、触发和状态，同批相关改动集中验收，历史通过与本轮实测分别记录。
 
 ## 依赖与范围
 

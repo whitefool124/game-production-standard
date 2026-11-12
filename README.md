@@ -4,7 +4,7 @@
 
 [技能入口](game-production-standard/SKILL.md)
 
-[完整制作规范 v1.2](game-production-standard/references/game-production-standard.md)
+[完整制作规范 v1.3](game-production-standard/references/game-production-standard.md)
 
 [明日方舟对白技能 2.1.0](arknights-dialogue/SKILL.md)（本地源版本日期：2026-10-23）
 
@@ -26,7 +26,7 @@
 
 1. 独立控件承担真实布局，禁止空格、空行和人工断行伪排版。
 2. 游戏界面禁用圆点与竖线作分隔符。
-3. 优先图形、空间与反馈，说明文字按需呈现。
+3. 额外可见文字只用于按钮、短时边界提示和短时反馈。保留游戏世界原本需要的文字，例如书本、告示牌、路标、标牌、菜单和招牌。
 4. 正式布局必须有经过实际审阅的生图参考，或经过实际应用与审阅的适用设计技能。
 5. 两条设计路径都未完成，只能交付明确标识的临时原型。正式制作任务不得自行降级后结束。
 6. 状态与反馈来自真实数据，检查证据对应实际版本和环境。
